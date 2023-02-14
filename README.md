@@ -1,5 +1,5 @@
 # CS50W-Project-4
-The source for the starter code can be found at [CS50W Project 4](https://cs50.harvard.edu/web/2020/projects/4/network/)
+The source for the starter code can be found at [CS50W Project 4](https://cs50.harvard.edu/web/2020/projects/4/network/).
 
 ## Project Overview
 The project uses Python (Django) as the backend, Bootstrap, and Javascript for asynchronous call to backend. The idea is to create a website which function similar to Twitter, and less focus was directed for the aesthetic of the clone. The below set up direction was adapted from the CS50W project guidelines.

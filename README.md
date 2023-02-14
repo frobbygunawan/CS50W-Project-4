@@ -1,9 +1,13 @@
 # CS50W-Project-4
-Twitter implementation
+The source for the starter code can be found at [CS50W Project 4](https://cs50.harvard.edu/web/2020/projects/4/network/)
 
-In the distribution code is a Django project called project4 that contains a single app called network, structured similarly to Project 2’s auctions app.
+## Project Overview
+The project uses Python (Django) as the backend, Bootstrap, and Javascript for asynchronous call to backend. The idea is to create a website which function similar to Twitter, and less focus was directed for the aesthetic of the clone. The below set up direction was adapted from the CS50W project guidelines.
 
-First, open up network/urls.py, where the URL configuration for this app is defined. Notice that we’ve already written a few URLs for you, including a default index route, a /login route, a /logout route, and a /register route.
+## Setup
+In the distribution code is a Django project called project4 that contains a single app called network.
+
+First, open up network/urls.py, where the URL configuration for this app is defined. A few URLs were already written, including a default index route, a /login route, a /logout route, and a /register route.
 
 Take a look at network/views.py to see the views that are associated with each of these routes. The index view for now returns a mostly-empty index.html template. The login_view view renders a login form when a user tries to GET the page. When a user submits the form using the POST request method, the user is authenticated, logged in, and redirected to the index page. The logout_view view logs the user out and redirects them to the index page. Finally, the register route displays a registration form to the user, and creates a new user when the form is submitted. All of this is done for you in the distribution code, so you should be able to run the application now to create some users.
 
